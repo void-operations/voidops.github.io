@@ -1,0 +1,26 @@
+# Jekyll Configuration for VoidOps GitHub Pages
+
+title: VoidOps
+description: Quiet, reliable systems.
+url: https://voidops.space
+baseurl: ""
+
+# Build settings
+plugins:
+  - jekyll-feed
+
+# Site settings
+lang: en
+markdown: kramdown
+highlighter: rouge
+
+# Exclude files
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
